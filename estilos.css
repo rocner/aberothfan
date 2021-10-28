@@ -1,0 +1,276 @@
+.cuerpo {
+    background-color: #463929;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 16px ;
+    line-height: 22px;
+}
+
+.cabeza {
+    max-width: 100%;
+    background-color: #3d3429;
+    padding: 20px 20px ;
+    
+    position: fixed;
+    left: 0;
+    top: 0; 
+    right: 0;
+}
+
+.navegation ul.show {
+    display: block;
+}
+
+.cabeza a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 1000;
+    padding: 20px 40px;
+    cursor: pointer;
+
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.into-cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navegador ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+
+.navegador ul li a:hover {
+    background: #9b8b7591;
+}
+
+
+#same { 
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 5px solid white;
+    padding: 15px;
+    margin: 3px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#same img {
+    padding: 30px 30px;
+}
+
+#same p {
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 27px;
+    line-height: 28px
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    line-height: 40px;
+}
+
+.principal {
+    background: #8d7557;
+    border-radius: 5px;
+    width: 95%;
+    max-width: 1800px;
+    margin: 0 auto;
+
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.principal h1 {
+    padding-left: 25px;
+}
+
+.principal div {
+    max-width: 1800px;
+    height: 100%;
+}
+
+.principal div p {
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 65px;
+    font-size: 17px;
+}
+
+.principal img {
+    padding-left: 30px;
+    width: 180px;
+    height: 200px;
+    padding-right: 1px;
+}
+
+#img-edit img{
+    display: inline-block;
+    align-content: center;
+
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.castillo {
+    margin-left: 405px;
+
+}
+
+.masmorras {
+    margin-left: 200px;
+    display: inline-block;
+}
+
+#video {
+display: inline-block;
+margin-left: 24%;
+border: 20px ridge tan;
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #5a4b38;
+    padding: 10px 10px;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    
+    left: 0;
+    top: 0; 
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#pie-1 ul il {
+    display:list-item ;
+    list-style: none;
+    
+}
+
+#pie-1 {
+    width: 300px;
+}
+
+#pie-2 a {
+    margin: 3px;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#pie-2 ul il {
+    display: list-item ;
+    list-style: none;
+         
+}
+
+#pie-3 ul img {
+    padding: 5px 5px;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    
+    .navegador {
+        width: 100% ;
+        margin-top: 10px;
+    }
+    .navegador ul li {
+        display: block;
+    }
+    
+    .menu {
+        display: block;
+        cursor: pointer;
+    }    
+    
+    .cabeza {
+    max-width: 100%;
+    background-color: #3d3429;
+    padding: 20px 20px ;
+    }
+    .cabeza a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 1000;
+    padding: 10px 0;
+
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    display: block;
+    }
+
+    .navegador ul li a:hover {
+    background: #9b8b7591;
+}
+
+.into-cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+#same {
+    margin-top: 250px;
+}
+
+.castillo {
+    margin: auto;
+}
+
+.masmorras {
+    margin: auto;
+}
+
+#video {
+    margin: auto;
+    height: 380px;
+    width: 600px;
+}
+
+}
